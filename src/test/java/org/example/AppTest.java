@@ -15,7 +15,7 @@ import java.util.List;
 public class AppTest extends DriverSettings{
 
     @Test
-    public void shouldAnswerWithTrue()
+    public void bookIsInTheCollection()
     {
         MainPage mainPage = new MainPage();
         mainPage.open();
