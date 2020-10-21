@@ -1,17 +1,11 @@
 package org.example;
 
-import static org.junit.Assert.assertTrue;
-import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selectors.*;
-
-
 import org.example.entities.Book;
 import org.example.pages.BookPage;
 import org.example.pages.MainPage;
 import org.example.pages.SearchResultPage;
-import org.junit.Assert;
-import org.junit.Test;
-
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,10 +1,7 @@
 package org.example.pages;
 
-import com.codeborne.selenide.SelenideElement;
 import org.example.entities.Book;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
 
 import static com.codeborne.selenide.Selenide.element;
 import static com.codeborne.selenide.Selenide.open;
@@ -20,7 +17,6 @@ public class BookPage extends Page{
         book.setName(element(name).getText());
         book.setAuthor(element(author).getText());
         book.setBestseller(element(bestseller).exists());
-        System.out.println(book);
         return book;
     }
 }
